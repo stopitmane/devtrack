@@ -4,6 +4,7 @@ import { useTasks } from './hooks/useTasks';
 import { PomodoroTimer } from './components/PomodoroTimer';
 import { TaskList } from './components/TaskList';
 import { StatsBar } from './components/StatsBar';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import './App.css';
 
 export default function App() {

@@ -236,3 +236,17 @@ button { font-family: var(--font); cursor: pointer; }
   .statsbar { grid-template-columns: 1fr; }
   .main { padding: 1rem 1rem 2rem; }
 }
+
+/* Error boundary */
+.error-boundary {
+  display: flex; flex-direction: column; align-items: center;
+  justify-content: center; gap: 12px; padding: 48px 24px;
+  text-align: center; color: var(--text-muted);
+}
+.error-boundary span { font-size: 2.5rem; }
+.error-boundary h3 { font-size: 1rem; font-weight: 700; color: var(--text); }
+.error-boundary p  { font-size: 0.875rem; }
+.error-boundary button {
+  padding: 8px 20px; border-radius: 7px; border: none;
+  background: var(--accent); color: #fff; font-weight: 600; cursor: pointer;
+}
